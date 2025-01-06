@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
 
-const defaultBg = '/bg.png'
+const defaultBg = 'bg.png'
 
 interface BgState {
   defaultBgSettled: boolean
